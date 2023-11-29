@@ -32,7 +32,7 @@ Um administrador de uma instituição de ensino com uma base de alunos em consta
 4. Professor - Disciplina (Um para Muitos): Um professor pode lecionar várias disciplinas, mas uma disciplina só pode ter um professor responsável.
 
 ## Modelagem Conceitual
-<a>https://drive.google.com/file/d/1Llp5YLOZUAhTarLqguZRPn2uBij0Q2FT/view?usp=sharing<a
+<a>https://drive.google.com/file/d/1Llp5YLOZUAhTarLqguZRPn2uBij0Q2FT/view?usp=sharing
 
 
 
