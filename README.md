@@ -53,32 +53,55 @@ https://lucid.app/lucidchart/f9197f18-6e76-493f-8e97-4a7a53cd98b3/edit?viewport_
 
 ### 4 - Dados: Faça a inserção de dados em todas as tabelas (ao menos 20 dados em cada tabela).
 
-### Tabela Aluno
+### Tabela - Aluno:
 ![Captura de tela 2023-11-29 133259](https://github.com/Leonardo-Cassio/Banco/assets/143566209/9dc2754a-126f-4ee4-bd58-47600dec3571)
 
-### Tabela Professor
+### Tabela - Professor:
 ![Captura de tela 2023-11-29 133318](https://github.com/Leonardo-Cassio/Banco/assets/143566209/1dd7401d-01e5-4e1a-ad0f-41750312d169)
 
-### Tabela Disciplina
+### Tabela - Disciplina:
 ![Captura de tela 2023-11-29 133338](https://github.com/Leonardo-Cassio/Banco/assets/143566209/44f980ea-c28b-4ca9-b2f3-46501a9494e4)
 
-
+### Tabela - Turma:
 ![Captura de tela 2023-11-29 133401](https://github.com/Leonardo-Cassio/Banco/assets/143566209/d3182c01-f633-4c8e-a92d-493a394d5b88)
+
+### Tabela - Situação:
 ![Captura de tela 2023-11-29 133423](https://github.com/Leonardo-Cassio/Banco/assets/143566209/8aaadaec-b549-4473-bad8-3ad20efbae18)
+
+### Tabela - Aluno_Turma: 
 ![Captura de tela 2023-11-29 133439](https://github.com/Leonardo-Cassio/Banco/assets/143566209/8192184f-3c23-44df-b151-4b6cdcfae44c)
+
+### Tabela - Professor_Turma:
 ![Captura de tela 2023-11-29 133456](https://github.com/Leonardo-Cassio/Banco/assets/143566209/7bf9e5a6-dbbe-4475-96be-c2a9f4569842)
+
+### Tabela - Disciplina_Professor
 ![Captura de tela 2023-11-29 133510](https://github.com/Leonardo-Cassio/Banco/assets/143566209/0efef958-41f1-4a1e-8467-2b09d22d8be4)
 
-## 🛠️ Modelo CRUD(Create; Read; Update; Delete)
+## 🛠️ Modelo CRUD (Create; Read; Update; Delete)
 
 ### 5 - CRUD: Faça a demonstração por meio de prints do CRUD dentro do SGBD (Inserção de dados, Leitura de Dados, Deleção e Alteração de Dados)
 
+### Inserção de Dados:
 ![Captura de tela 2023-11-27 205100](https://github.com/Leonardo-Cassio/Banco/assets/143566209/cb7cb460-722f-4ea1-9ced-33f9c4ed9a98)
+
+### Leitura de Dados:
 ![Captura de tela 2023-11-27 205121](https://github.com/Leonardo-Cassio/Banco/assets/143566209/722872ac-fa6c-4995-9f59-22d427160d7b)
+
+### Atualização de Dados:
 ![Captura de tela 2023-11-27 205223](https://github.com/Leonardo-Cassio/Banco/assets/143566209/1ebbb527-4d78-4a9e-9878-63b9570e2eab)
+
+### Exclusão de Dados:
 ![Captura de tela 2023-11-27 205307](https://github.com/Leonardo-Cassio/Banco/assets/143566209/0df6abe9-3ae2-4777-967a-0921b24de15c)
 
+## ✒️ Autores
 
+Leonardo Cassio dos Santos
+
+## 🎁 Expressões de gratidão
+
+* Conte a outras pessoas sobre este projeto 📢
+* Convide alguém da equipe para uma cerveja amanteigada 🍺 
+* Obrigado publicamente 🤓.
 
 
 
