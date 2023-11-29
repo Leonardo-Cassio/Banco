@@ -7,7 +7,7 @@ SQL Server Management Studio Management Studio 19
 Lucidchart
 Draw.io
 
-## 1 - Cenário: Se passando por uma empresa/usuário crie 01 cenário descrevendo a necessidade de um sistema (exemplos: sistema comercial, biblioteca, bancário e etc). Faça um texto bem detalhado onde seja possível identificar quem são as entidade, atributos e relacionamentos. É obrigatório ter no mínimo 05 entidades e todos os tipos de atributos (simples, compostos, multivalorados, derivados e atributos chave) e relacionamentos (UM PARA UM (1:1), UM PARA MUITOS (1:N) e MUITOS PARA MUITOS (N:N)). 
+### 1 - Cenário: Se passando por uma empresa/usuário crie 01 cenário descrevendo a necessidade de um sistema (exemplos: sistema comercial, biblioteca, bancário e etc). Faça um texto bem detalhado onde seja possível identificar quem são as entidade, atributos e relacionamentos. É obrigatório ter no mínimo 05 entidades e todos os tipos de atributos (simples, compostos, multivalorados, derivados e atributos chave) e relacionamentos (UM PARA UM (1:1), UM PARA MUITOS (1:N) e MUITOS PARA MUITOS (N:N)). 
 
 ## ✒️ Cenário: Desenvolvimento de um Sistema para Gerenciamento Escolar
 
@@ -15,7 +15,7 @@ Um administrador de uma instituição de ensino com uma base de alunos, professo
 
 ## ⚙️ Modelagem Conceitual
 
-## 2 - Modelagem Conceitual: Faça o DER completo do cenários criado. Respeite todas as regras do MER.
+### 2 - Modelagem Conceitual: Faça o DER completo do cenários criado. Respeite todas as regras do MER.
 
 https://drive.google.com/file/d/1Llp5YLOZUAhTarLqguZRPn2uBij0Q2FT/view?usp=sharing
 
@@ -43,7 +43,7 @@ https://drive.google.com/file/d/1Llp5YLOZUAhTarLqguZRPn2uBij0Q2FT/view?usp=shari
 
 ## ⚙️ Modelagem Lógica
 
-## 3 - Modelagem Lógica: Faça o Modelo Lógico do cenário criado, demonstre os tipos de dados esperado em cada atributo (varchar, int e etc), demonstre também de forma clara as chaves primários e estrangeiras e a relação entre as tabelas.
+### 3 - Modelagem Lógica: Faça o Modelo Lógico do cenário criado, demonstre os tipos de dados esperado em cada atributo (varchar, int e etc), demonstre também de forma clara as chaves primários e estrangeiras e a relação entre as tabelas.
 
 https://lucid.app/lucidchart/f9197f18-6e76-493f-8e97-4a7a53cd98b3/edit?viewport_loc=-414%2C-424%2C2643%2C1228%2C0_0&invitationId=inv_addc2376-79ae-4ac0-8a55-72f930d4f1ff
 
@@ -51,7 +51,7 @@ https://lucid.app/lucidchart/f9197f18-6e76-493f-8e97-4a7a53cd98b3/edit?viewport_
 
 ## 📦 Dados
 
-## 4 - Dados: Faça a inserção de dados em todas as tabelas (ao menos 20 dados em cada tabela).
+### 4 - Dados: Faça a inserção de dados em todas as tabelas (ao menos 20 dados em cada tabela).
 
 ![Captura de tela 2023-11-29 133259](https://github.com/Leonardo-Cassio/Banco/assets/143566209/9dc2754a-126f-4ee4-bd58-47600dec3571)
 ![Captura de tela 2023-11-29 133318](https://github.com/Leonardo-Cassio/Banco/assets/143566209/1dd7401d-01e5-4e1a-ad0f-41750312d169)
