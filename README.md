@@ -1,29 +1,5 @@
 # 🚀 Banco de Dados 
 Tarefa do curso DSM da FATEC Dr. Thomaz Novelino de Modelagem de Banco de Dados, na qual foi preciso desenvolver um sistema fictício de uma banco de dados completo.
-[Uploading At
-Microsoft Visual Studio Solution File, Format Version 12.00
-# SQL Server Management Studio Solution File, Format Version 19.00
-VisualStudioVersion = 15.0.28307.421
-MinimumVisualStudioVersion = 10.0.40219.1
-Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Scripts do SQL Server1", "Scripts do SQL Server1\Scripts do SQL Server1.ssmssqlproj", "{10D45C77-09BF-4EAC-90D3-859F7555D191}"
-EndProject
-Global
-	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Default|Default = Default|Default
-	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{10D45C77-09BF-4EAC-90D3-859F7555D191}.Default|Default.ActiveCfg = Default
-		{80BC934B-C94D-4442-973A-2FCBE19C6C1C}.Default|Default.ActiveCfg = Default
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {481B639A-B23B-4CAF-8F93-CA39293B323E}
-	EndGlobalSection
-EndGlobal
-ividade de Banco de Dados.ssmssln…]()
-
 
 ## 🛠️ Construído com:
 
