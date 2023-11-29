@@ -53,9 +53,16 @@ https://lucid.app/lucidchart/f9197f18-6e76-493f-8e97-4a7a53cd98b3/edit?viewport_
 
 ### 4 - Dados: Faça a inserção de dados em todas as tabelas (ao menos 20 dados em cada tabela).
 
+### Tabela Aluno
 ![Captura de tela 2023-11-29 133259](https://github.com/Leonardo-Cassio/Banco/assets/143566209/9dc2754a-126f-4ee4-bd58-47600dec3571)
+
+### Tabela Professor
 ![Captura de tela 2023-11-29 133318](https://github.com/Leonardo-Cassio/Banco/assets/143566209/1dd7401d-01e5-4e1a-ad0f-41750312d169)
+
+### Tabela Disciplina
 ![Captura de tela 2023-11-29 133338](https://github.com/Leonardo-Cassio/Banco/assets/143566209/44f980ea-c28b-4ca9-b2f3-46501a9494e4)
+
+
 ![Captura de tela 2023-11-29 133401](https://github.com/Leonardo-Cassio/Banco/assets/143566209/d3182c01-f633-4c8e-a92d-493a394d5b88)
 ![Captura de tela 2023-11-29 133423](https://github.com/Leonardo-Cassio/Banco/assets/143566209/8aaadaec-b549-4473-bad8-3ad20efbae18)
 ![Captura de tela 2023-11-29 133439](https://github.com/Leonardo-Cassio/Banco/assets/143566209/8192184f-3c23-44df-b151-4b6cdcfae44c)
