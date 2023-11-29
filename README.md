@@ -4,7 +4,9 @@ Tarefa do curso DSM da FATEC Dr. Thomaz Novelino de Modelagem de Banco de Dados,
 ## 🛠️ Construído com:
 
 SQL Server Management Studio Management Studio 19
+
 Lucidchart
+
 Draw.io
 
 ### 1 - Cenário: Se passando por uma empresa/usuário crie 01 cenário descrevendo a necessidade de um sistema (exemplos: sistema comercial, biblioteca, bancário e etc). Faça um texto bem detalhado onde seja possível identificar quem são as entidade, atributos e relacionamentos. É obrigatório ter no mínimo 05 entidades e todos os tipos de atributos (simples, compostos, multivalorados, derivados e atributos chave) e relacionamentos (UM PARA UM (1:1), UM PARA MUITOS (1:N) e MUITOS PARA MUITOS (N:N)). 
