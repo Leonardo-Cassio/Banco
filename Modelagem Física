@@ -1,1 +1,320 @@
+drop database if exists Aluno;
+create database Aluno;
 
+drop table if EXISTS aluno;
+
+-- Criação da tabela Aluno
+CREATE TABLE Aluno (
+    ID_Aluno INT PRIMARY KEY IDENTITY,
+    Nome VARCHAR(100), 
+    Data_de_Nascimento DATE,
+    Genero VARCHAR(20),
+    Endereco VARCHAR(200),
+    Numero_de_Telefone VARCHAR(20),
+    Email VARCHAR(100)
+);
+
+select * from Aluno;
+
+-- Inserção de dados na tabela Aluno
+INSERT INTO Aluno VALUES ('João Silva', '05-03-2006', 'Masculino', 'Rua A, 123', '(16)99999-9999', 'joao.silva@email.com');
+INSERT INTO Aluno VALUES ('Maria Santos', '20-05-2006', 'Feminino', 'Rua B, 456', '(16)88888-8888', 'maria.santos@email.com');
+INSERT INTO Aluno VALUES ('Ana Silva', '30-01-2007', 'Feminino', 'Rua C, 789', '(16)98765-4321', 'ana.silva@email.com');
+INSERT INTO Aluno VALUES ('Pedro Santos', '22-09-2007', 'Masculino', 'Rua D, 987', '(16)67983-8321', 'pedro.santos@email.com');
+INSERT INTO Aluno VALUES ('Carolina Lima', '11-01-2008', 'Feminino', 'Rua E, 654', '(16)78324-7430', 'carolina.lima@email.com');
+INSERT INTO Aluno VALUES ('Júlio Braga', '18-04-2007', 'Masculino', 'Rua F, 321', '(16)38192-6482', 'juliobraga@email.com');
+INSERT INTO Aluno VALUES ('Rafael Prado', '24-10-2006', 'Masculino', 'Rua G, 482', '(16)64882-6849', 'rafaelprado@email.com');
+INSERT INTO Aluno VALUES ('Ana Silva', '30-01-2004', 'Feminino', 'Rua H, 732', '(16)98765-4321', 'ana.silva@email.com');
+INSERT INTO Aluno VALUES ('Camila Souza', '09-07-2005', 'Feminino', 'Rua I, 490', '(16)10987-6543', 'camila.souza@email.com');
+INSERT INTO Aluno VALUES ('André Almeida', '04-02-2009', 'Masculino', 'Rua J, 483', '(16)74988-4823', 'andré.almeida@email.com');
+INSERT INTO Aluno VALUES ('Fernanda Pereira', '11-09-2001', 'Feminino', 'Rua K, 834', '(16)68295-9837', 'fernanda.pereira@email.com');
+INSERT INTO Aluno VALUES ('Bruno Lima', '30-08-2003', 'Masculino', 'Rua L, 748', '(16)83784-7298', 'bruno.lima@email.com');
+INSERT INTO Aluno VALUES ('Larissa Santos', '06-12-2009', 'Feminino', 'Rua M, 284', '(16)62848-6390', 'larissa.santos@email.com');
+INSERT INTO Aluno VALUES ('Diego Costa', '23-07-2000', 'Masculino', 'Rua N, 847', '(16)89264-8658', 'diego.costa@email.com');
+INSERT INTO Aluno VALUES ('Aline Lima', '28-01-2004', 'Feminino', 'Rua O, 483', '(16)19947-8378', 'aline.lima@email.com');
+INSERT INTO Aluno VALUES ('Victor Oliveira', '12-12-2008', 'Masculino', 'Rua P, 391', '(16)27936-1998', 'victor.oliveira@email.com');
+INSERT INTO Aluno VALUES ('Isabela Martins', '09-10-2009', 'Feminino', 'Rua Q, 738', '(16)38817-8767', 'isabela.martins@email.com');
+INSERT INTO Aluno VALUES ('Ricardo Souza', '02-06-2002', 'Masculino', 'Rua R, 612', '(16)43927-8736', 'ricardo.souza@email.com');
+INSERT INTO Aluno VALUES ('Leonardo Santos', '22-03-2001', 'Masculino', 'Rua S, 391', '(16)89273-1345', 'leonardo.santos@email.com');
+INSERT INTO Aluno VALUES ('Robert José', '10-04-2001', 'Masculino', 'Rua T, 190', '(16)42218-0912', 'abner.josé@email.com');
+
+drop table Aluno
+
+drop database if exists Professor;
+create database Professor;
+
+drop table if EXISTS professor;
+
+-- Criação da tabela Professor
+CREATE TABLE Professor (
+    ID_Professor INT PRIMARY KEY IDENTITY,
+    Nome VARCHAR(100),
+    Especializacao VARCHAR(100),
+    Data_de_Contratacao DATE,
+    Salario DECIMAL(10, 2),
+    Numero_de_Telefone VARCHAR(20),
+    Email VARCHAR(100)
+);
+
+select * from Professor
+
+-- Inserção de dados na tabela Professor
+INSERT INTO Professor VALUES ('Carlos Oliveira', 'Matemática', '02-12-2010', 4500.00, '(16)77777-7777', 'carlos.oliveira@email.com');
+INSERT INTO Professor VALUES ('Ana Pereira', 'História', '07-10-2015', 3800.00, '(16)66666-6666', 'ana.pereira@email.com');
+INSERT INTO Professor VALUES ('Márcio Albuquerque', 'Ciências', '12-03-2014', 4100.00, '(16)43232-8746', 'márcio.albuquerque@email.com');
+INSERT INTO Professor VALUES ('Luzia Souza', 'Português', '21-10-2009', 3450.00, '(16)18772-9623', 'luzia.souza@email.com');
+INSERT INTO Professor VALUES ('Pedro Paulo', 'Filosofia', '10-09-2007', 5600.00, '(16)31236-3772', 'pedro.paulo@email.com');
+INSERT INTO Professor VALUES ('Elder Ramos', 'Geografia', '12-05-2012', 3420.00, '(16)42183-3212', 'elder.ramos@email.com');
+INSERT INTO Professor VALUES ('Maria Dora', 'Educação Física', '02-11-2014', 3400.00, '(16)37289-3290', 'maria.dora@email.com');
+INSERT INTO Professor VALUES ('Salvador Lira', 'Biologia', '20-03-2018', 3240.00, '(16)49277-4795', 'salvador.lira@email.com');
+INSERT INTO Professor VALUES ('Luciano Pochettino', 'História', '31-05-2018', 4350.00, '(16)86453-7653', 'luciano.pochettino@email.com');
+INSERT INTO Professor VALUES ('Regina Chieregato', 'Educação Física', '24-06-2016', 3450.00, '(16)86256-8763', 'regina.chieregato@email.com');
+INSERT INTO Professor VALUES ('Marcela Custódio', 'Português', '10-09-2018', 3520.00, '(16)66244-7456', 'marcela.custodio@email.com');
+INSERT INTO Professor VALUES ('Miranda Andrade', 'Artes', '08-05-2009', 4100.00, '(16)77355-2138', 'miranda.andrade@email.com');
+INSERT INTO Professor VALUES ('Amarildo Castro', 'Inglês', '10-01-2017', 3900.00, '(16)32118-7244', 'amarildo.castro@email.com');
+INSERT INTO Professor VALUES ('Manoel Simões', 'Artes', '16-03-2021', 3570.00, '(16)62444-9465', 'manoel.simoes@email.com');
+INSERT INTO Professor VALUES ('Rômulo Assis', 'Matemática', '12-02-2022', 4320.00, '(16)43947-5623', 'romulo.assis@email.com');
+INSERT INTO Professor VALUES ('Patrícia Neves', 'Ciências', '07-11-2019', 4520.00, '(16)57234-8265', 'patricia.neves@email.com');
+INSERT INTO Professor VALUES ('Gabriel Torres', 'Inglês', '05-08-2017', 4000.00, '(16)82656-8365', 'gabriel.torres@email.com');
+INSERT INTO Professor VALUES ('Élen Faria', 'Geografia', '27-06-2018', 3480.00, '(16)73654-3774', 'ellen.faria@email.com');
+INSERT INTO Professor VALUES ('Abner Costa', 'História', '19-07-2014', 3700.00,'(16)85375-8264', 'abner.costa@email.com');
+INSERT INTO Professor VALUES ('Cristiano Túlio', 'Filosofia', '20-03-2011', 3290.00, '(16)76643-6454', 'cristiano.tulio@email.com');
+
+drop table Professor
+
+drop database if exists Disciplina;
+create database Disciplina;
+
+drop table if EXISTS disciplina;
+
+-- Criação da tabela Disciplina
+CREATE TABLE Disciplina (
+    ID_Disciplina INT PRIMARY KEY IDENTITY,
+    Nome_da_Disciplina VARCHAR(100),
+    Carga_Horaria INT,
+    Descricao VARCHAR(200)
+);
+
+select * from Disciplina
+
+-- Inserção de dados na tabela Disciplina
+INSERT INTO Disciplina VALUES ('Matemática', 80, 'Aula de Matemática Básica');
+INSERT INTO Disciplina VALUES ('História', 80, 'Aula de História Antiga');
+INSERT INTO Disciplina VALUES ('Ciências', 70, 'Aula de Ciências Básica');
+INSERT INTO Disciplina VALUES ('Português', 80, 'Aula de Português Básico');
+INSERT INTO Disciplina VALUES ('Filosofia', 60, 'Aula de Filosofia Antiga');
+INSERT INTO Disciplina VALUES ('Geografia', 60, 'Aula de Geografia Básica');
+INSERT INTO Disciplina VALUES ('Educação Física', 50, 'Aula de Educação Física e Esportes');
+INSERT INTO Disciplina VALUES ('Bilogia', 70, 'Aula de Bilogia Básica');
+INSERT INTO Disciplina VALUES ('História', 80, 'Aula de História Antiga');
+INSERT INTO Disciplina VALUES ('Educação Física', 50, 'Aula de Educação Física e Esportes');
+INSERT INTO Disciplina VALUES ('Português', 80, 'Aula de Português Básico');
+INSERT INTO Disciplina VALUES ('Artes', 50, 'Aula de Artes e Desenho');
+INSERT INTO Disciplina VALUES ('Inglês', 60, 'Aula de Inglês Básico');
+INSERT INTO Disciplina VALUES ('Artes', 50, 'Aula de Artes e Desenho');
+INSERT INTO Disciplina VALUES ('Matemática', 80, 'Aula de Matemática Básica');
+INSERT INTO Disciplina VALUES ('Ciências', 70, 'Aula de Ciências Básica');
+INSERT INTO Disciplina VALUES ('Inglês', 60, 'Aula de Inglês Básico');
+INSERT INTO Disciplina VALUES ('Geografia', 60, 'Aula de Geografia Básica');
+INSERT INTO Disciplina VALUES ('História', 80, 'Aula de História Antiga');
+INSERT INTO Disciplina VALUES ('Filosofia', 60, 'Aula de Filosofia Antiga');
+
+drop table Disciplina
+
+drop database if exists Turma;
+create database Turma;
+
+drop table if EXISTS turma;
+
+-- Criação da tabela Turma
+CREATE TABLE Turma (
+    ID_Turma INT PRIMARY KEY IDENTITY,
+    Ano_Letivo INT,
+    Horario VARCHAR(50),
+    Sala_de_Aula VARCHAR(50),
+    Numero_de_Alunos_Suportados INT
+);
+
+select * from Turma
+
+-- Inserção de dados na tabela Turma
+INSERT INTO Turma VALUES (2023, '07:00 - 09:00', 'Sala 101', 25);
+INSERT INTO Turma VALUES(2023, '09:00 - 11:00', 'Sala 102', 25);
+INSERT INTO Turma VALUES(2023, '11:00 - 13:00', 'Sala 103', 25);
+INSERT INTO Turma VALUES(2023, '13:00 - 15:00', 'Sala 104', 25);
+INSERT INTO Turma VALUES(2023, '15:00 - 17:00', 'Sala 105', 25);
+INSERT INTO Turma VALUES(2023, '17:00 - 19:00', 'Sala 106', 25);
+INSERT INTO Turma VALUES(2023, '19:00 - 21:00', 'Sala 107', 25);
+INSERT INTO Turma VALUES(2023, '21:00 - 23:00', 'Sala 108', 25);
+INSERT INTO Turma VALUES(2023, '07:00 - 09:00', 'Sala 109', 25);
+INSERT INTO Turma VALUES(2023, '09:00 - 11:00', 'Sala 110', 25);
+INSERT INTO Turma VALUES(2023, '11:00 - 13:00', 'Sala 111', 25);
+INSERT INTO Turma VALUES(2023, '13:00 - 15:00', 'Sala 112', 25);
+INSERT INTO Turma VALUES(2023, '15:00 - 17:00', 'Sala 113', 25);
+INSERT INTO Turma VALUES(2023, '17:00 - 19:00', 'Sala 114', 25);
+INSERT INTO Turma VALUES(2023, '19:00 - 21:00', 'Sala 115', 25);
+INSERT INTO Turma VALUES(2023, '21:00 - 23:00', 'Sala 116', 25);
+INSERT INTO Turma VALUES(2023, '07:00 - 09:00', 'Sala 117', 25);
+INSERT INTO Turma VALUES(2023, '09:00 - 11:00', 'Sala 118', 25);
+INSERT INTO Turma VALUES(2023, '11:00 - 13:00', 'Sala 119', 25);
+INSERT INTO Turma VALUES(2023, '13:00 - 15:00', 'Sala 120', 25);
+
+drop table Turma
+
+drop database if exists Situação;
+create database Situação;
+
+drop table if EXISTS situação;
+
+-- Criação da tabela Situação
+CREATE TABLE Situação (
+    ID_Situação INT PRIMARY KEY IDENTITY,
+    Data_de_Divulgação DATE,
+    Resultado VARCHAR(50),
+    ID_Aluno INT,
+    FOREIGN KEY (ID_Aluno) REFERENCES Aluno(ID_Aluno)
+);
+
+select * from Situação
+
+-- Inserção de dados na tabela Situação
+INSERT INTO Situação VALUES ('20-12-2023', 'Aprovado', 1);
+INSERT INTO Situação VALUES ('20-12-2023', 'Aprovado', 2);
+INSERT INTO Situação VALUES ('20-12-2023', 'Reprovado', 3);
+INSERT INTO Situação VALUES ('20-12-2023', 'Aprovado', 4);
+INSERT INTO Situação VALUES ('20-12-2023', 'Aprovado', 5);
+INSERT INTO Situação VALUES ('20-12-2023', 'Reprovado', 6);
+INSERT INTO Situação VALUES ('20-12-2023', 'Reprovado', 7);
+INSERT INTO Situação VALUES ('20-12-2023', 'Aprovado', 8);
+INSERT INTO Situação VALUES ('20-12-2023', 'Aprovado', 9);
+INSERT INTO Situação VALUES ('20-12-2023', 'Reprovado', 10);
+INSERT INTO Situação VALUES ('20-12-2023', 'Aprovado', 11);
+INSERT INTO Situação VALUES ('20-12-2023', 'Aprovado', 12);
+INSERT INTO Situação VALUES ('20-12-2023', 'Aprovado', 13);
+INSERT INTO Situação VALUES ('20-12-2023', 'Aprovado', 14);
+INSERT INTO Situação VALUES ('20-12-2023', 'Aprovado', 15);
+INSERT INTO Situação VALUES ('20-12-2023', 'Reprovado', 16);
+INSERT INTO Situação VALUES ('20-12-2023', 'Aprovado', 17);
+INSERT INTO Situação VALUES ('20-12-2023', 'Aprovado', 18);
+INSERT INTO Situação VALUES ('20-12-2023', 'Aprovado', 19);
+INSERT INTO Situação VALUES ('20-12-2023', 'Aprovado', 20);
+
+drop database if exists Aluno_Turma;
+create database Aluno_Turma;
+
+drop table if EXISTS aluno_turma;
+
+-- Criação da tabela Aluno_Turma
+CREATE TABLE Aluno_Turma (
+    ID_Aluno INT,
+    ID_Turma INT,
+    FOREIGN KEY (ID_Aluno) REFERENCES Aluno(ID_Aluno),
+    FOREIGN KEY (ID_Turma) REFERENCES Turma(ID_Turma),
+    PRIMARY KEY (ID_Aluno, ID_Turma)
+);
+
+select * from Aluno_turma
+
+-- Inserção de dados na tabela Aluno_Turma
+INSERT INTO Aluno_Turma (ID_Aluno, ID_Turma) VALUES (1, 20);
+INSERT INTO Aluno_Turma (ID_Aluno, ID_Turma) VALUES (2, 19);
+INSERT INTO Aluno_Turma (ID_Aluno, ID_Turma) VALUES (3, 18);
+INSERT INTO Aluno_Turma (ID_Aluno, ID_Turma) VALUES (4, 17);
+INSERT INTO Aluno_Turma (ID_Aluno, ID_Turma) VALUES (5, 16);
+INSERT INTO Aluno_Turma (ID_Aluno, ID_Turma) VALUES (6, 15);
+INSERT INTO Aluno_Turma (ID_Aluno, ID_Turma) VALUES (7, 14);
+INSERT INTO Aluno_Turma (ID_Aluno, ID_Turma) VALUES (8, 13);
+INSERT INTO Aluno_Turma (ID_Aluno, ID_Turma) VALUES (9, 12);
+INSERT INTO Aluno_Turma (ID_Aluno, ID_Turma) VALUES (10, 11);
+INSERT INTO Aluno_Turma (ID_Aluno, ID_Turma) VALUES (11, 10);
+INSERT INTO Aluno_Turma (ID_Aluno, ID_Turma) VALUES (12, 9);
+INSERT INTO Aluno_Turma (ID_Aluno, ID_Turma) VALUES (13, 8);
+INSERT INTO Aluno_Turma (ID_Aluno, ID_Turma) VALUES (14, 7);
+INSERT INTO Aluno_Turma (ID_Aluno, ID_Turma) VALUES (15, 6);
+INSERT INTO Aluno_Turma (ID_Aluno, ID_Turma) VALUES (16, 5);
+INSERT INTO Aluno_Turma (ID_Aluno, ID_Turma) VALUES (17, 4);
+INSERT INTO Aluno_Turma (ID_Aluno, ID_Turma) VALUES (18, 3);
+INSERT INTO Aluno_Turma (ID_Aluno, ID_Turma) VALUES (19, 2);
+INSERT INTO Aluno_Turma (ID_Aluno, ID_Turma) VALUES (20, 1);
+
+drop table Aluno_Turma
+
+drop database if exists Professor_Turma;
+create database Professor_Turma;
+
+drop table if EXISTS professor_turma;
+
+-- Criação da tabela Professor_Turma
+CREATE TABLE Professor_Turma (
+    ID_Professor INT,
+    ID_Turma INT,
+    FOREIGN KEY (ID_Professor) REFERENCES Professor(ID_Professor),
+    FOREIGN KEY (ID_Turma) REFERENCES Turma(ID_Turma),
+    PRIMARY KEY (ID_Professor, ID_Turma)
+);
+
+select * from Professor_Turma
+
+-- Inserção de dados na tabela Professor_Turma
+INSERT INTO Professor_Turma (ID_Professor, ID_Turma) VALUES (1, 11);
+INSERT INTO Professor_Turma (ID_Professor, ID_Turma) VALUES (2, 8);
+INSERT INTO Professor_Turma (ID_Professor, ID_Turma) VALUES (3, 6);
+INSERT INTO Professor_Turma (ID_Professor, ID_Turma) VALUES (4, 4);
+INSERT INTO Professor_Turma (ID_Professor, ID_Turma) VALUES (5, 2);
+INSERT INTO Professor_Turma (ID_Professor, ID_Turma) VALUES (6, 20);
+INSERT INTO Professor_Turma (ID_Professor, ID_Turma) VALUES (7, 18);
+INSERT INTO Professor_Turma (ID_Professor, ID_Turma) VALUES (8, 16);
+INSERT INTO Professor_Turma (ID_Professor, ID_Turma) VALUES (9, 14);
+INSERT INTO Professor_Turma (ID_Professor, ID_Turma) VALUES (10, 12);
+INSERT INTO Professor_Turma (ID_Professor, ID_Turma) VALUES (11, 10);
+INSERT INTO Professor_Turma (ID_Professor, ID_Turma) VALUES (12, 9);
+INSERT INTO Professor_Turma (ID_Professor, ID_Turma) VALUES (13, 7);
+INSERT INTO Professor_Turma (ID_Professor, ID_Turma) VALUES (14, 5);
+INSERT INTO Professor_Turma (ID_Professor, ID_Turma) VALUES (15, 3);
+INSERT INTO Professor_Turma (ID_Professor, ID_Turma) VALUES (16, 1);
+INSERT INTO Professor_Turma (ID_Professor, ID_Turma) VALUES (17, 19);
+INSERT INTO Professor_Turma (ID_Professor, ID_Turma) VALUES (18, 17);
+INSERT INTO Professor_Turma (ID_Professor, ID_Turma) VALUES (19, 15);
+INSERT INTO Professor_Turma (ID_Professor, ID_Turma) VALUES (20, 13);
+
+drop table Professor_Turma
+
+drop database if exists Disciplina_Professor;
+create database Disciplina_Professor;
+
+drop table if EXISTS disciplina_professor;
+
+-- Criação da tabela Disciplina_Professor
+CREATE TABLE Disciplina_Professor (
+    ID_Disciplina INT,
+    ID_Professor INT,
+    FOREIGN KEY (ID_Disciplina) REFERENCES Disciplina(ID_Disciplina),
+    FOREIGN KEY (ID_Professor) REFERENCES Professor(ID_Professor),
+    PRIMARY KEY (ID_Disciplina, ID_Professor)
+);
+
+select * from Disciplina_Professor
+
+-- Inserção de dados na tabela Disciplina_Professor
+INSERT INTO Disciplina_Professor (ID_Disciplina, ID_Professor) VALUES (3, 1);
+INSERT INTO Disciplina_Professor (ID_Disciplina, ID_Professor) VALUES (4, 2);
+INSERT INTO Disciplina_Professor (ID_Disciplina, ID_Professor) VALUES (5, 3);
+INSERT INTO Disciplina_Professor (ID_Disciplina, ID_Professor) VALUES (6, 4);
+INSERT INTO Disciplina_Professor (ID_Disciplina, ID_Professor) VALUES (7, 5);
+INSERT INTO Disciplina_Professor (ID_Disciplina, ID_Professor) VALUES (8, 6);
+INSERT INTO Disciplina_Professor (ID_Disciplina, ID_Professor) VALUES (9, 7);
+INSERT INTO Disciplina_Professor (ID_Disciplina, ID_Professor) VALUES (10, 8);
+INSERT INTO Disciplina_Professor (ID_Disciplina, ID_Professor) VALUES (11, 9);
+INSERT INTO Disciplina_Professor (ID_Disciplina, ID_Professor) VALUES (12, 10);
+INSERT INTO Disciplina_Professor (ID_Disciplina, ID_Professor) VALUES (13, 11);
+INSERT INTO Disciplina_Professor (ID_Disciplina, ID_Professor) VALUES (14, 12);
+INSERT INTO Disciplina_Professor (ID_Disciplina, ID_Professor) VALUES (15, 13);
+INSERT INTO Disciplina_Professor (ID_Disciplina, ID_Professor) VALUES (16, 14);
+INSERT INTO Disciplina_Professor (ID_Disciplina, ID_Professor) VALUES (17, 15);
+INSERT INTO Disciplina_Professor (ID_Disciplina, ID_Professor) VALUES (18, 16);
+INSERT INTO Disciplina_Professor (ID_Disciplina, ID_Professor) VALUES (19, 17);
+INSERT INTO Disciplina_Professor (ID_Disciplina, ID_Professor) VALUES (20, 18);
+INSERT INTO Disciplina_Professor (ID_Disciplina, ID_Professor) VALUES (21, 19);
+INSERT INTO Disciplina_Professor (ID_Disciplina, ID_Professor) VALUES (22, 20);
+
+drop table Disciplina_Professor
