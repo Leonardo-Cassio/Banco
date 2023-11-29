@@ -93,6 +93,14 @@ https://lucid.app/lucidchart/f9197f18-6e76-493f-8e97-4a7a53cd98b3/edit?viewport_
 ### Exclusão de Dados:
 ![Captura de tela 2023-11-27 205307](https://github.com/Leonardo-Cassio/Banco/assets/143566209/0df6abe9-3ae2-4777-967a-0921b24de15c)
 
+## ✒️ Relatórios:
+
+### 6 - Relatórios: Utilizando a Seleção, Filtro e Ordenação crie 10 consultas para exibir os dados do seu Banco de Dados demonstrando principalmente a relação entre as tabelas.
+
+![Captura de tela 2023-11-29 141326](https://github.com/Leonardo-Cassio/Banco/assets/143566209/bc873503-b4f2-436e-84e8-10bb4bc7c073)
+
+
+
 ## ✒️ Autores:
 
 Leonardo Cassio dos Santos.
