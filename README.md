@@ -7,9 +7,9 @@ SQL Server Management Studio Management Studio 19;
 Lucidchart;
 Draw.io;
 
-### 1 - Cenário: Se passando por uma empresa/usuário crie 01 cenário descrevendo a necessidade de um sistema (exemplos: sistema comercial, biblioteca, bancário e etc). Faça um texto bem detalhado onde seja possível identificar quem são as entidade, atributos e relacionamentos. É obrigatório ter no mínimo 05 entidades e todos os tipos de atributos (simples, compostos, multivalorados, derivados e atributos chave) e relacionamentos (UM PARA UM (1:1), UM PARA MUITOS (1:N) e MUITOS PARA MUITOS (N:N)). 
+## ✒️ 1 - Cenário: Desenvolvimento de um Sistema para Gerenciamento Escolar:
 
-## ✒️ Cenário: Desenvolvimento de um Sistema para Gerenciamento Escolar:
+### 1 - Cenário: Se passando por uma empresa/usuário crie 01 cenário descrevendo a necessidade de um sistema (exemplos: sistema comercial, biblioteca, bancário e etc). Faça um texto bem detalhado onde seja possível identificar quem são as entidade, atributos e relacionamentos. É obrigatório ter no mínimo 05 entidades e todos os tipos de atributos (simples, compostos, multivalorados, derivados e atributos chave) e relacionamentos (UM PARA UM (1:1), UM PARA MUITOS (1:N) e MUITOS PARA MUITOS (N:N)). 
 
 Um administrador de uma instituição de ensino com uma base de alunos, professores, disciplinas, turmas e situações em constante crescimento, enfrenta diversos desafios complexos no gerenciamento de informações acadêmicas e administrativas. Para otimizar os processos internos, ele solicitou um Sistema de Gerenciamento de Escola abrangente, capaz de lidar com todos os aspectos da administração escolar.
 
