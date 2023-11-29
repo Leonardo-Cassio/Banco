@@ -62,7 +62,7 @@ https://lucid.app/lucidchart/f9197f18-6e76-493f-8e97-4a7a53cd98b3/edit?viewport_
 ![Captura de tela 2023-11-29 133456](https://github.com/Leonardo-Cassio/Banco/assets/143566209/7bf9e5a6-dbbe-4475-96be-c2a9f4569842)
 ![Captura de tela 2023-11-29 133510](https://github.com/Leonardo-Cassio/Banco/assets/143566209/0efef958-41f1-4a1e-8467-2b09d22d8be4)
 
-## 🛠️ Modelo CRUD
+## 🛠️ Modelo CRUD(Create; Read; Update; Delete)
 
 ### 5 - CRUD: Faça a demonstração por meio de prints do CRUD dentro do SGBD (Inserção de dados, Leitura de Dados, Deleção e Alteração de Dados)
 
