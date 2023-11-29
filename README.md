@@ -97,34 +97,34 @@ https://lucid.app/lucidchart/f9197f18-6e76-493f-8e97-4a7a53cd98b3/edit?viewport_
 
 ### 6 - Relatórios: Utilizando a Seleção, Filtro e Ordenação crie 10 consultas para exibir os dados do seu Banco de Dados demonstrando principalmente a relação entre as tabelas.
 
-### Primeira consulta: Selecionar todos os alunos:
+### 1 - Primeira consulta: Selecionar todos os alunos:
 ![Captura de tela 2023-11-29 141326](https://github.com/Leonardo-Cassio/Banco/assets/143566209/bc873503-b4f2-436e-84e8-10bb4bc7c073)
 
-### Segunda consulta: Selecionar todos os professores ordenados em ordem alfabética pelo nome:
+### 2 - Segunda consulta: Selecionar todos os professores ordenados em ordem alfabética pelo nome:
 ![Captura de tela 2023-11-29 141416](https://github.com/Leonardo-Cassio/Banco/assets/143566209/b9b19328-5cdc-48f8-a70b-c860d6273b77)
 
-### Terceira consulta: Selecionar todas as disciplinas com carga horária superior a 60 horas:
+### 3 - Terceira consulta: Selecionar todas as disciplinas com carga horária superior a 60 horas:
 ![Captura de tela 2023-11-29 141452](https://github.com/Leonardo-Cassio/Banco/assets/143566209/5bb5520c-1b11-45ec-90ac-026de602befb)
 
-### Quarta consulta: Selecionar todas as turmas do ano letivo de 2023:
+### 4 - Quarta consulta: Selecionar todas as turmas do ano letivo de 2023:
 ![Captura de tela 2023-11-29 141532](https://github.com/Leonardo-Cassio/Banco/assets/143566209/884d5f25-8994-4bbc-9842-d3c76ba9f29a)
 
-### Quinta consulta: Selecione todos os professores cujo nome contenha a letra 'E':
+### 5 - Quinta consulta: Selecione todos os professores cujo nome contenha a letra 'E':
 ![Captura de tela 2023-11-29 141645](https://github.com/Leonardo-Cassio/Banco/assets/143566209/9e2c07c7-0a2f-4430-ad0d-f085e364ab63)
 
-### Sexta consulta: Selecionar o nome e a data de nascimento de todos os alunos ordenados dos mais velhos aos mais jovens:
+### 6 - Sexta consulta: Selecionar o nome e a data de nascimento de todos os alunos ordenados dos mais velhos aos mais jovens:
 ![Captura de tela 2023-11-29 141934](https://github.com/Leonardo-Cassio/Banco/assets/143566209/d85cdba2-4b25-40b1-9e6d-c25ff74e40de)
 
-### Sétima consulta: Selecionar todas as situações dos alunos de uma determinada turma:
+### 7 - Sétima consulta: Selecionar todas as situações dos alunos de uma determinada turma:
 ![Captura de tela 2023-11-29 142048](https://github.com/Leonardo-Cassio/Banco/assets/143566209/0e02f0e4-f4bb-472f-8b41-6495fe099b78)
 
-### Oitava consulta: Selecionar o nome dos alunos e suas respectivas turmas:
+### 8 - Oitava consulta: Selecionar o nome dos alunos e suas respectivas turmas:
 ![Captura de tela 2023-11-29 142130](https://github.com/Leonardo-Cassio/Banco/assets/143566209/82dc60a1-7a00-4152-904a-96f53af28ae3)
 
-### Nona consulta:
+### 9 - Nona consulta:
 ![Captura de tela 2023-11-29 142203](https://github.com/Leonardo-Cassio/Banco/assets/143566209/badc54e4-7f75-441b-87e7-2c81a70368b2)
 
-### Décima consulta:
+### 10 - Décima consulta:
 ![Captura de tela 2023-11-29 142235](https://github.com/Leonardo-Cassio/Banco/assets/143566209/fc6c4596-5178-4b52-90fd-5c428f125536)
 
 
