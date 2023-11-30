@@ -121,7 +121,7 @@ https://lucid.app/lucidchart/f9197f18-6e76-493f-8e97-4a7a53cd98b3/edit?viewport_
 ### 8º consulta: Selecionar o nome dos alunos e suas respectivas turmas:
 ![Captura de tela 2023-11-29 142130](https://github.com/Leonardo-Cassio/Banco/assets/143566209/82dc60a1-7a00-4152-904a-96f53af28ae3)
 
-### 9º consulta:
+### 9º consulta: Selecionar o nome e a especialização dos professores:
 ![Captura de tela 2023-11-29 142203](https://github.com/Leonardo-Cassio/Banco/assets/143566209/badc54e4-7f75-441b-87e7-2c81a70368b2)
 
 ### 10º consulta:
